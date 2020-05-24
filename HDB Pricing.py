@@ -8,7 +8,7 @@ from datetime import datetime
 
 #reads in existing .csv file
 try:
-    df_archive = pd.read_csv('hdb-bto-prices.csv', index_col='Date')
+    df_archive = pd.read_csv('https://raw.githubusercontent.com/pehshengwu/hdb-bto-webscraper/master/hdb-bto-prices.csv', index_col='Date')
     df_archive.index = pd.to_datetime(df_archive.index)
 
 #if it doesn't exist, create new dataframe
@@ -80,4 +80,3 @@ df_archive = df_archive.sort_values(['Date', 'Town'], ascending=[False, True])
 
 #export as .csv file
 df_archive.to_csv('hdb-bto-prices.csv')
-
