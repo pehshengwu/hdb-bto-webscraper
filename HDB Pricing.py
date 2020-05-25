@@ -72,6 +72,7 @@ df['Price'] = df['Price'].apply(lambda x: int(''.join(c for c in x if c.isdigit(
 df['Subsidised Price'] = df['Subsidised Price'].apply(lambda x: int(''.join(c for c in x if c.isdigit())))
 df['Date'] = df['Date'].map(lambda x: datetime.strptime('01-' + ('-'.join(x.split(' '))), '%d-%B-%Y'))
 df = df.set_index('Date')
+print(df)
 
 #append scraped date to existing file
 df_archive = df_archive.append(df)
