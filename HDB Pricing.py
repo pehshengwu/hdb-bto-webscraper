@@ -79,10 +79,6 @@ df = df.set_index('Date')
 df_archive = df_archive.append(df)
 df_archive = df_archive.drop_duplicates()
 df_archive = df_archive.sort_values(['Date', 'Town'], ascending=[False, True])
-print(df_archive.head())
-print(df_archive.tail())
 
 #export as .csv file
-df_archive.to_csv(glob.glob('hdb-bto-prices.csv')[0])
-
-print(glob.glob('hdb-bto-prices.csv')[0])
+df_archive.to_csv('hdb-bto-prices1.csv')
