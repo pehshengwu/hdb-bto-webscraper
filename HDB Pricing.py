@@ -82,3 +82,7 @@ df_archive = df_archive.sort_values(['Date', 'Town'], ascending=[False, True])
 
 #export as .csv file
 df_archive.to_csv('hdb-bto-prices1.csv')
+import os
+
+# Print current working directory
+print("Current working dir : %s" % os.getcwd())
