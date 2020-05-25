@@ -72,12 +72,13 @@ df['Price'] = df['Price'].apply(lambda x: int(''.join(c for c in x if c.isdigit(
 df['Subsidised Price'] = df['Subsidised Price'].apply(lambda x: int(''.join(c for c in x if c.isdigit())))
 df['Date'] = df['Date'].map(lambda x: datetime.strptime('01-' + ('-'.join(x.split(' '))), '%d-%B-%Y'))
 df = df.set_index('Date')
-print(df)
 
 #append scraped date to existing file
 df_archive = df_archive.append(df)
 df_archive = df_archive.drop_duplicates()
 df_archive = df_archive.sort_values(['Date', 'Town'], ascending=[False, True])
+print(df_archive.head())
+print(df_archive.tail())
 
 #export as .csv file
 df_archive.to_csv('hdb-bto-prices.csv')
