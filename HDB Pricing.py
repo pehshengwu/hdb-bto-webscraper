@@ -5,10 +5,6 @@ import time
 import random
 import pandas as pd
 from datetime import datetime
-import os
-
-os.chdir('C:\Users\Jekyll\Coding\HDB_BTO_webscraper')
-print("Current working dir : %s" % os.getcwd())
 
 #reads in existing .csv file
 try:
