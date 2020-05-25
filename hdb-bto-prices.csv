@@ -1,38 +1,41 @@
 Date,Town,Contract,Type,Price,Subsidised Price
-2020-02-01,Sembawang,Canberra Vista,2-room Flexi*@,89000,9000
-2020-02-01,Sembawang,Canberra Vista,3-room,177000,102000
-2020-02-01,Sembawang,Canberra Vista,4-room,272000,212000
-2020-02-01,Sembawang,Canberra Vista,5-room,350000,305000
-2020-02-01,Sembawang,Canberra Vista,3Gen,355000,310000
-2020-02-01,Toa Payoh,Kim Keat Ripples Toa Payoh Ridge,2-room Flexi*^^ (40-year Lease),90000,10000
-2020-02-01,Toa Payoh,Kim Keat Ripples Toa Payoh Ridge,3-room,351000,291000
-2020-02-01,Toa Payoh,Kim Keat Ripples Toa Payoh Ridge,4-room,395000,350000
-2019-11-01,Ang Mo Kio , Yio Chu Kang Beacon,2-room Flexi*,170000,90000
-2019-11-01,Ang Mo Kio , Yio Chu Kang Beacon,3-room,332000,272000
-2019-11-01,Ang Mo Kio , Yio Chu Kang Beacon,4-room,451000,406000
-2019-11-01,Tampines,Tampines GreenSpring,2-room Flexi*,145000,65000
-2019-11-01,Tampines,Tampines GreenSpring,3-room,281000,221000
-2019-11-01,Tampines,Tampines GreenSpring,4-room,394000,349000
-2019-11-01,Tampines,Tampines GreenSpring,5-room,508000,478000
-2019-11-01,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,2-room Flexi*^^,110000,30000
-2019-11-01,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,3-room,208000,133000
-2019-11-01,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,4-room,302000,242000
-2019-11-01,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,5-room,409000,364000
-2019-11-01,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,3Gen,442000,397000
-2019-09-01,Punggol,Punggol Point CovePunggol Point Crown ,2-room Flexi*#,109000,29000
-2019-09-01,Punggol,Punggol Point CovePunggol Point Crown ,3-room,205000,130000
-2019-09-01,Punggol,Punggol Point CovePunggol Point Crown ,4-room,287000,227000
-2019-09-01,Punggol,Punggol Point CovePunggol Point Crown ,5-room,423000,378000
-2019-09-01,Tampines,Tampines GreenGlen**,4-room,312000,267000
-2019-09-01,Tampines,Tampines GreenGlen**,5-room,418000,388000
-2019-05-01,Kallang/ Whampoa,Kempas Residences,2-room Flexi* ^^(40-year Lease),117000,95000
-2019-05-01,Kallang/ Whampoa,Kempas Residences,3-room,387000,367000
-2019-05-01,Kallang/ Whampoa,Kempas Residences,4-room,562000,557000
-2019-05-01,Tengah,Plantation Acres#Garden Vale @ Tengah#,2-room Flexi*,106000,26000
-2019-05-01,Tengah,Plantation Acres#Garden Vale @ Tengah#,3-room,192000,117000
-2019-05-01,Tengah,Plantation Acres#Garden Vale @ Tengah#,4-room,309000,249000
-2019-05-01,Tengah,Plantation Acres#Garden Vale @ Tengah#,5-room,415000,410000
-2019-05-01,Woodlands,Champions Green,2-room Flexi*,86000,6000
-2019-05-01,Woodlands,Champions Green,3-room,165000,90000
-2019-05-01,Woodlands,Champions Green,4-room,244000,184000
-2019-05-01,Woodlands,Champions Green,5-room,336000,331000
+1/2/2020,Sembawang,Canberra Vista,2-room Flexi*@,89000,9000
+1/2/2020,Sembawang,Canberra Vista,3-room,177000,102000
+1/2/2020,Sembawang,Canberra Vista,4-room,272000,212000
+1/2/2020,Sembawang,Canberra Vista,5-room,350000,305000
+1/2/2020,Sembawang,Canberra Vista,3Gen,355000,310000
+1/2/2020,Toa Payoh,Kim Keat Ripples Toa Payoh Ridge,2-room Flexi*^^ (40-year Lease),90000,10000
+1/2/2020,Toa Payoh,Kim Keat Ripples Toa Payoh Ridge,3-room,351000,291000
+1/2/2020,Toa Payoh,Kim Keat Ripples Toa Payoh Ridge,4-room,395000,350000
+1/11/2019,Ang Mo Kio , Yio Chu Kang Beacon,2-room Flexi*,170000,90000
+1/11/2019,Ang Mo Kio , Yio Chu Kang Beacon,3-room,332000,272000
+1/11/2019,Ang Mo Kio , Yio Chu Kang Beacon,4-room,451000,406000
+1/11/2019,Tampines,Tampines GreenSpring,2-room Flexi*,145000,65000
+1/11/2019,Tampines,Tampines GreenSpring,3-room,281000,221000
+1/11/2019,Tampines,Tampines GreenSpring,4-room,394000,349000
+1/11/2019,Tampines,Tampines GreenSpring,5-room,508000,478000
+1/11/2019,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,2-room Flexi*^^,110000,30000
+1/11/2019,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,3-room,208000,133000
+1/11/2019,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,4-room,302000,242000
+1/11/2019,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,5-room,409000,364000
+1/11/2019,Tengah,Plantation Village#Plantation Grange#Garden Vines @ Tengah# ,3Gen,442000,397000
+1/9/2019,Punggol,Punggol Point CovePunggol Point Crown ,2-room Flexi*#,109000,29000
+1/9/2019,Punggol,Punggol Point CovePunggol Point Crown ,3-room,205000,130000
+1/9/2019,Punggol,Punggol Point CovePunggol Point Crown ,4-room,287000,227000
+1/9/2019,Punggol,Punggol Point CovePunggol Point Crown ,5-room,423000,378000
+1/9/2019,Tampines,Tampines GreenGlen**,4-room,312000,267000
+1/9/2019,Tampines,Tampines GreenGlen**,5-room,418000,388000
+1/5/2019,Kallang/ Whampoa,Kempas Residences,2-room Flexi* ^^(40-year Lease),117000,95000
+1/5/2019,Kallang/ Whampoa,Kempas Residences,3-room,387000,367000
+1/5/2019,Kallang/ Whampoa,Kempas Residences,4-room,562000,557000
+1/5/2019,Tengah,Plantation Acres#Garden Vale @ Tengah#,2-room Flexi*,106000,26000
+1/5/2019,Tengah,Plantation Acres#Garden Vale @ Tengah#,3-room,192000,117000
+1/5/2019,Tengah,Plantation Acres#Garden Vale @ Tengah#,4-room,309000,249000
+1/5/2019,Tengah,Plantation Acres#Garden Vale @ Tengah#,5-room,415000,410000
+1/5/2019,Woodlands,Champions Green,2-room Flexi*,86000,6000
+1/5/2019,Woodlands,Champions Green,3-room,165000,90000
+1/5/2019,Woodlands,Champions Green,4-room,244000,184000
+1/5/2019,Woodlands,Champions Green,5-room,336000,331000
+1/2/2019,Jurong West,"Boon Lay Glade/Jurong West Jewel	",4-room,257000,247000
+1/2/2019,Sengkang,Fernvale Vines,4-room,283000,273000
+1/2/2019,Kallang/ Whampoa,Kallang Breeze/Towner Crest ,4-room,599000,589000
