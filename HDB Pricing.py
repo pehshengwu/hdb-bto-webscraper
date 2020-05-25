@@ -4,7 +4,9 @@ from selenium import webdriver
 import time
 import random
 import pandas as pd
+import glob
 from datetime import datetime
+
 
 #reads in existing .csv file
 try:
@@ -81,4 +83,6 @@ print(df_archive.head())
 print(df_archive.tail())
 
 #export as .csv file
-df_archive.to_csv('hdb-bto-prices.csv')
+df_archive.to_csv(glob.glob('hdb-bto-prices.csv')[0])
+
+print(glob.glob('hdb-bto-prices.csv')[0])
