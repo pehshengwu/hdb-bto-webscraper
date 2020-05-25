@@ -4,9 +4,11 @@ from selenium import webdriver
 import time
 import random
 import pandas as pd
-import glob
 from datetime import datetime
+import os
 
+os.chdir('C:\Users\Jekyll\Coding\HDB_BTO_webscraper')
+print("Current working dir : %s" % os.getcwd())
 
 #reads in existing .csv file
 try:
@@ -81,8 +83,4 @@ df_archive = df_archive.drop_duplicates()
 df_archive = df_archive.sort_values(['Date', 'Town'], ascending=[False, True])
 
 #export as .csv file
-df_archive.to_csv('hdb-bto-prices1.csv')
-import os
-
-# Print current working directory
-print("Current working dir : %s" % os.getcwd())
+df_archive.to_csv('hdb-bto-prices.csv')
