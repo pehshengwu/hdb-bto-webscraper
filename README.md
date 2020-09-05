@@ -7,6 +7,6 @@ Problem: The BTO prices are available only on individual webpages based on their
 
 Solution: A webscraper that uses the BeautifulSoup and Selenium libraries to extract and parse the data into a dataframe, ultimately exporting the data into an excel file. The only hard-coded input is the main url (the aforementioned link) that contains the urls of the individual sales launches.
 
-Pre-requisites: Install Chromedriver from https://chromedriver.chromium.org/ and ensure it's in PATH. Also with your package manager, install openpyxl, bs4 & selenium.
+Pre-requisites: Run pip install -r requirements.txt on your terminal
 
 Enjoy!

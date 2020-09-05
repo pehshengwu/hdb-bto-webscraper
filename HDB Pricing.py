@@ -1,10 +1,11 @@
 #import all libraries
 from bs4 import BeautifulSoup
-from selenium import webdriver
 import time
 import random
 import pandas as pd
 from datetime import datetime
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 #reads in existing .csv file
 try:
@@ -17,7 +18,7 @@ except:
 
 #extract source code of main webpage that holds all past sales launch urls
 url = "https://www.hdb.gov.sg/cs/infoweb/residential/buying-a-flat/new/bto-sbf"
-driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get(url)
 html_doc = driver.execute_script("return document.documentElement.innerHTML")
 driver.quit()
@@ -35,7 +36,7 @@ for row in section.find_all('td'):
 sourceCodes = []
 for page in pastSalesURL:
     print(page)
-    driver = webdriver.Chrome('chromedriver.exe')
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(page)
     res = driver.execute_script("return document.documentElement.innerHTML")
     driver.quit()
